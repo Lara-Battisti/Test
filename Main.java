@@ -19,6 +19,12 @@ public class Main {
         
         System.out.println("Hello World");
         
+        ClassOne number = new ClassOne(4);
+        
+        System.out.println("Number is: " + number.getNum());
+        number.AddOne();
+        System.out.println("After adding 1: " + number.getNum());
+        
     }
     
 }
